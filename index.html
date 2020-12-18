@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="https://xayooindustries.us/static/img/logo.png" type="image/x-icon" />
+        <title>xayooindustries.us - Footage</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            body {
+
+                background-color: #18181b;
+                display: flex;
+                margin-left: 40px;
+                color: #adadb8;
+                font-family: 'Open Sans', sans-serif;
+                height: 100%;
+            }
+            p {
+                font-size: 1em;
+                font-weight: 300;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="margin:2em">
+            <img src="https://i.pinimg.com/originals/ba/30/dc/ba30dc05114415bd4fd24413fabf0c6c.gif" style="align-items: unset;border-radius: 16px;width: auto;height: 10em;">
+
+            <p style="font-weight: bold;margin-bottom: 40px;">Drodzy widzowie,</p>
+
+            <p>Wszystkie bezpośrednie przekierowania są dostępne w opisach vodów na YouTube</p>
+
+            <p id="question" style="margin-bottom: 40px;"><a href="https://www.youtube.com/channel/UCpKuj45MPOfLLO3jp-2y42Q" style="text-decoration: none;color: yellow;">To nie holak</a></p>
+
+            <p>Humbly<br/><b style="font-weight: bold;">Xayoo Industries</b></p>
+
+            <audio controls loop id="muzyka" style="position: absolute;top: 0;right: 0;margin:40px;">
+                <source src="https://footage.xayooindustries.us/mp3.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </body>
+    <script>
+        setTimeout(() => {
+            var vid = document.getElementById("muzyka");
+            vid.volume = 0.2;
+            vid.play();
+        }, 2 * 2000);
+    </script>
+</html>
+
