@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+body{
+    background-color: #18181b;
+    color: #efeff1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+    margin: 1rem;
+}
+.hello{
+    color: #adadb8;
+    font-size: 0.80rem;
+}
+p{
+    font-size: 1.5em;
+}
+p img{
+    height: 1em;
+    width: auto;
+}
