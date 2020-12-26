@@ -1,7 +1,8 @@
 var jsonXD = '';
 var scrollStatus = 1;
+var loaded = 0;
 var urlParams = parseURLParams(window.location.href);
-var a = ["PogChamp", "VisLaud", "BibleThump", "tf", "ResidentSleeper", "AYAYA", "B"];
+var a = ["PogChamp", "VisLaud", "BibleThump", "tf", "ResidentSleeper", "AYAYA"];
 
 
 $("body").append(`<div class="container"><div class="gierczak" id="heheszki"><div class="title"><h1>Zapis Czatu - ID: <b style="color:#277df9;">${urlParams.chat}</b></h1></div><div class="m-2" id="put-chat"></div></div></div>`)
@@ -29,11 +30,12 @@ if(!urlParams.full){
 }else if(urlParams.full){
     $.getJSON( `https://ankordii.github.io/XayooIndustries-Czat/${urlParams.chat}.json`, function( data ) {
         let msg = document.querySelector("#put-chat")
-        $("h1").append(`<br/> <b class="gardient">${data.messages.length} wiadomości</b>`)
+        $("h1").append(`<br/> <b class="gardient"><b id="loadedDiv">-</b>/${data.messages.length} wiadomości</b>`)
 
         let display = ([x, ...rest]) => {
           if (!x) return
           setTimeout(_ => {
+            loaded++
             msg.innerHTML += `<p>
             <span class="timestamp">${x.time}</span>
             <b><span style="color: ${x.color}">${x.nickname}</span></b>:
@@ -45,6 +47,10 @@ if(!urlParams.full){
         
         display(data.messages)
     });
+
+    setInterval(() => {
+        $("#loadedDiv").text(loaded);
+    }, 3 * 1000);
 }
 
 function scrollChat(){
