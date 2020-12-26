@@ -2,9 +2,9 @@
 
 ![NODEJS](https://img.shields.io/badge/NODEJS-Chillin-green)
 
-- 🌱 I’m currently learning **Golang**
+- 🌱 Aktualnie pracuje nad podglądem czatu razem z emotkami
 
-### 📬 Get in Touch
+### 📬 Kontakt
 
 - GitHub: [github.com/ankordii][github]
 - Site: [https://xayooindustries.us/kontakt][site]
