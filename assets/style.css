@@ -1,20 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
-
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     background-color: #18181b;
     color: #efeff1;
     font-family: 'Open Sans', sans-serif;
     font-size: 62.5%;
-    margin: 1rem;
+    overflow: hidden;
 }
-.hello{
-    color: #adadb8;
-    font-size: 0.80rem;
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
-p{
+.dis{
+    height: 100%;
+    width: 80%;
+    float: left;
+}
+.gierczak{
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.gierczak p{
     font-size: 1.5em;
 }
-p img{
-    height: 1em;
-    width: auto;
+.m-1{
+    margin: 1em;
+}
+.m-2{
+    margin: 2em;
+}
+.m-3{
+    margin: 3em;
+}
+.m-4{
+    margin: 4em;
+}
+.m-5{
+    margin: 5em;
+}
+#put-chat{
+    background-color: #19191f;
+    padding: 0.5em;
+}
+::-webkit-scrollbar {
+    width: 3px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background: rgb(24, 24, 24);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #277df9;
+}
+.title{
+    position:fixed;
+    width: 100%;
+    background-color: #26262f;
+    padding: 1em;
+}
+.timestamp{
+    color: #adadb8;
+}
+#buttonScroll{
+    font-size: 2em;
+    cursor: pointer;
+    background-color: #17171f;
+    border-radius: 5px;
+    padding: 0.3em;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.gardient {
+    background: -webkit-linear-gradient(45deg, #ff00ce, #ff4a4a 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
