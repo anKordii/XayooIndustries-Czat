@@ -10,7 +10,7 @@
 - Site: [https://xayooindustries.us/kontakt][site]
 - E-mail: support@xayooindustries.us
 
-Aktualnie dostępne emotki
+### 💎 Aktualnie dostępne emotki
 ![emotki](https://raw.githubusercontent.com/anKordii/XayooIndustries-Czat/main/assets/emotki.png)
 
 [github]: https://github.com/ankordii
