@@ -14,6 +14,13 @@
                 }
             }
         },
+        "bits": {
+            "versions": {
+                "1": {
+                    "image_url": "https://static-cdn.jtvnw.net/badges/v1/73b5c3fb-24f9-4a82-a852-2f475b59411c/1"
+                }
+            }
+        },
         "60-seconds_1": {
             "versions": {
                 "1": {
