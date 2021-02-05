@@ -4,7 +4,8 @@
 ![HTML](https://img.shields.io/badge/HTML-Chillin-orange)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Chillin-yellow)
 
-- 🌱 Aktualnie pracuje nad podglądem czatu razem z emotkami
+# 🟥 Wszystkie pliki czatu zostały przeniesione pod adres 
+https://drive.xayooindustries.us 🟥
 
 ### 📬 Kontakt
 
