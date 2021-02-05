@@ -4,8 +4,7 @@
 ![HTML](https://img.shields.io/badge/HTML-Chillin-orange)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Chillin-yellow)
 
-# 🟥 Wszystkie pliki czatu zostały przeniesione pod adres 
-https://drive.xayooindustries.us 🟥
+### 🟥 Wszystkie pliki czatu zostały przeniesione pod adres https://drive.xayooindustries.us 🟥
 
 ### 📬 Kontakt
 
