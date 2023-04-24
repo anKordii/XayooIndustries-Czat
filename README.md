@@ -9,14 +9,14 @@
 ### 📬 Kontakt
 
 - GitHub: [github.com/ankordii][github]
-- Site: [https://xayooindustries.us/kontakt][site]
-- E-mail: support@xayooindustries.us
+- Site: [oxynstudiso.com][site]
+- E-mail: zan@uuid.top
 
 ### 💎 Aktualnie dostępne emotki
 ![emotki](https://raw.githubusercontent.com/anKordii/XayooIndustries-Czat/main/assets/emotki.png)
 
 [github]: https://github.com/ankordii
-[site]: https://xayooindustries.us/kontakt
+[site]: https://oxynstudios.com
 
 ### 📍 Jak używać
 
